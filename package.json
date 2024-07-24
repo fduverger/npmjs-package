@@ -1,0 +1,17 @@
+{
+  "name": "@test/npmjs-package",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.14.12",
+    "tsup": "^8.2.2",
+    "typescript": "^5.5.4"
+  }
+}
