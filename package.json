@@ -1,19 +1,24 @@
 {
   "name": "@test/npmjs-package",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "private": false,
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
   "scripts": {
     "dev": "vitest",
     "test": "vitest run",
     "build": "tsup src/index.ts --format cjs,esm --dts",
     "lint": "tsc",
-    "ci": "pnpm lint && pnpm test && pnpm build"
+    "ci": "pnpm lint && pnpm test && pnpm build",
+    "release": "pnpm lint && pnpm test && pnpm build && changeset publish"
   },
   "keywords": [],
   "author": "Frank Gonzalez",
   "license": "ISC",
   "devDependencies": {
+    "@changesets/cli": "^2.27.7",
     "@types/node": "^20.14.12",
     "tsup": "^8.2.2",
     "typescript": "^5.5.4",
