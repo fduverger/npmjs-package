@@ -29,6 +29,6 @@
     "access": "public"
   },
   "dependencies": {
-    "@fduverger/npmjs-package": "^0.0.3"
+    "@fduverger/npmjs-package": "^0.0.2"
   }
 }
