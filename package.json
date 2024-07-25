@@ -1,6 +1,6 @@
 {
   "name": "@fduverger/npmjs-package",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "private": false,
   "main": "./dist/index.js",
@@ -29,6 +29,6 @@
     "access": "public"
   },
   "dependencies": {
-    "@fduverger/npmjs-package": "^0.0.2"
+    "@fduverger/npmjs-package": "^0.0.3"
   }
 }
