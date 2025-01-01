@@ -18,17 +18,18 @@
   "author": "Frank Gonzalez",
   "license": "ISC",
   "devDependencies": {
-    "@changesets/cli": "^2.27.7",
-    "@types/node": "^20.14.12",
+    "@changesets/cli": "^2.27.11",
+    "@types/node": "^22.10.3",
     "ts-node": "^10.9.2",
-    "tsup": "^8.2.2",
-    "typescript": "^5.5.4",
-    "vitest": "^2.0.4"
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
   },
   "publishConfig": {
     "access": "public"
   },
   "dependencies": {
-    "@fduverger/npmjs-package": "^0.0.2"
-  }
+    "@fduverger/npmjs-package": "^0.0.3"
+  },
+  "packageManager": "pnpm@9.15.2"
 }
