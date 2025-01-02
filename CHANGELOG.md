@@ -1,5 +1,13 @@
 # @test/npmjs-package
 
+## 0.0.4
+
+### Patch Changes
+
+- 36ba3cf: Change log level to info
+- Updated dependencies [36ba3cf]
+  - @fduverger/npmjs-package@0.0.4
+
 ## 0.0.3
 
 ### Patch Changes
